@@ -1,14 +1,11 @@
 var color    = ['#ca7','#7ac','#77c','#aac','#a7c','#ac7', "#caa"];
-
 var stopAngel = []; // stop angels starting from label index 1(0...label.length)
 var ctx = canvas.getContext("2d");
 var width = document.getElementById('canvas').width; // size
 var center = width/2;      // center
-
 var deg = 260;
 var speed = 5;
 var slowDownRand = 0;
-
 
 // var center = 150;
 var isStopped = false;
